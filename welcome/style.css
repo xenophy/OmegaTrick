@@ -25,7 +25,7 @@ h1 span {
   display: none;
 }
 
-h2 {
+h3 {
   color: #444;
   font: normal normal bold 13px/normal tahoma, arial, sans-serif;
   height: 16px;
@@ -33,7 +33,7 @@ h2 {
   overflow: hidden;
 }
 
-h3 {
+h4 {
   color: #666;
   font: normal normal normal 11px/normal tahoma, arial, sans-serif;
   height: 13px;
@@ -41,11 +41,17 @@ h3 {
   overflow: hidden;
 }
 
+.msg p {
+  color: #333;
+  line-height: 0.5em;
+
+}
+
 .category {
   background: transparent url(ct-bg.png) no-repeat scroll 50% 100%;
   float: left;
   height: 160px;
-  margin: 0px 10px 10px 0px;
+  margin: 20px 10px 30px 0px;
   overflow: hidden;
   text-align: left;
   width: 270px;
@@ -60,6 +66,10 @@ h3 {
 .category li {
   margin-bottom: 10px;
 
+}
+
+address {
+  clear: both;
 }
 
 /*
