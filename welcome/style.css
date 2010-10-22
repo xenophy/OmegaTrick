@@ -1,0 +1,106 @@
+/* vim: set expandtab tabstop=2 shiftwidth=2 softtabstop=2: */
+
+/**
+ * Omega Trick Library 0.5.0
+ * Copyright(c) 2006-2010 Xenophy.CO.,LTD All rights Reserved.
+ * http://omegatrick.com
+ * http://www.gnu.org/licenses/gpl-3.0.html
+ */
+body {
+  font-family:helvetica,tahoma,verdana,sans-serif;
+  padding:20px;
+  font-size:13px;
+  background-color:#fff !important;
+}
+
+h1 {
+  width: 191px;
+  height: 80px;
+  background-image: url(logo.gif);
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+}
+
+h1 span {
+  display: none;
+}
+
+h2 {
+  color: #444;
+  font: normal normal bold 13px/normal tahoma, arial, sans-serif;
+  height: 16px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+h3 {
+  color: #666;
+  font: normal normal normal 11px/normal tahoma, arial, sans-serif;
+  height: 13px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.category {
+  background: transparent url(ct-bg.png) no-repeat scroll 50% 100%;
+  float: left;
+  height: 160px;
+  margin: 0px 10px 10px 0px;
+  overflow: hidden;
+  text-align: left;
+  width: 270px;
+}
+
+.header {
+  background: transparent url(ct-header.png) no-repeat scroll 50% 0%;
+  padding: 5px 10px 8px;
+  text-align: left;
+}
+
+.category li {
+  margin-bottom: 10px;
+
+}
+
+/*
+h2 {
+font-size:18px;
+color: #0F2A6C;
+padding: 5px;
+background-color: #F1F5FA;
+border: solid 1px #0F2A6C;
+margin-top:20px;
+}
+
+  h3 {
+  font-size:14px;
+  color: #3C4246;
+  padding: 5px;
+  border: 2px solid #EEEEEE;
+  background-color: #F9F9F9;
+}
+
+h4 {
+  font-size:14px;
+  padding: 0 5px;
+  margin: 0;
+  color: #0F2A6C;
+}
+
+p {
+  color: #333;
+  padding: 0 5px;
+}
+
+hr {
+  margin: 10px 5px;
+}
+  */
+
+/*
+ * Local variables:
+ * tab-width: 2
+ * c-basic-offset: 2
+ * c-hanging-comment-ender-p: nil
+ * End:
+ */
