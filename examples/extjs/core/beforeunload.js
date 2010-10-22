@@ -23,9 +23,8 @@ Application.setup({
                 }
 
             },
-            renderTo: Ext.getBody()
+            renderTo: 'ret'
         });
-
 
     }
 

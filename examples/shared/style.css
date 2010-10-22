@@ -72,6 +72,10 @@ address {
   clear: both;
 }
 
+li {
+  margin-right: 10px;
+}
+
 /*
  * Local variables:
  * tab-width: 2
