@@ -63,6 +63,14 @@ h4 {
   text-align: left;
 }
 
+.ext-js {
+  background: transparent url(ct-header-ext-js.png) no-repeat scroll 50% 0%;
+}
+
+.sencha-touch {
+  background: transparent url(ct-header-sencha-touch.png) no-repeat scroll 50% 0%;
+}
+
 .category li {
   margin-bottom: 10px;
 
