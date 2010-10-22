@@ -35,7 +35,7 @@ class Account
      */
     public function isSignin()
     {
-        session_start();
+//        session_start();
 
         if(isset($_SESSION[$this->_sessKey])) {
             return $_SESSION[$this->_sessKey];

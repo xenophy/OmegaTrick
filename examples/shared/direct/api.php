@@ -13,7 +13,7 @@
 require_once('config.php');
 
 $cfg = array(
-    'url'=>'../shared/direct/router.php',
+    'url'=>'../../shared/direct/router.php',
     'type'=>'remoting',
     'actions'=>$actions
 );
