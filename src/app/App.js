@@ -63,7 +63,7 @@ Trick.app.App = function() {
             };
 
             // Ext.History初期化
-            if(me.useHistory) {
+            if(me.useHistory && Trick.isExtJS) {
 
                 // Ext.History用タグ生成
                 Ext.DomHelper.append(Ext.getBody(), {

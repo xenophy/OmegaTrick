@@ -27,7 +27,7 @@ Trick = {};
     var isOmegaTrick = true;
 
     // SenchaTouch有効フラグ
-    var isSenchaTouch = Ext.TouchEventManager ? true : false;
+    var isSenchaTouch = Ext.getOrientation ? true : false;
 
     // Ext Core有効フラグ
     var isExtCore = (!isSenchaTouch && !Ext.ComponentMgr) ? true : false;
